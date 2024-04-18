@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.recommended-seller {
+     display: block;
+     margin-top: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.headertext {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+}
+.seller-grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.seller-grid .seller{
+    display: grid;
+    /* width: 33.3%; */
+}
+
+.seller-grid .seller .product-images{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 340px;
+    align-items: center;
+}
+
+.seller-grid .seller .product-images img {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* object-fit: cover*/;
+}
+
+.seller-grid .seller .seller-info{
+    display: flex;
+    align-items: center;
+}
+
+.seller-grid .seller .seller-info .save-seller{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    height: 49px;
+}
+
+
+
+.sellall{
+    margin-left: auto;
+}

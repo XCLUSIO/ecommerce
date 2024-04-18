@@ -29,7 +29,7 @@
 }
 
 .product-item {
-    width: 15.6%;
+    width: 23%;
     margin-left: 10px;
 }
 
@@ -57,6 +57,16 @@
     border: 2px solid #333;
 }
 
+.product-details{
+    display: grid;
+    align-items: flex-start;
+}
+
+.product-details h3, .product-details p {
+    text-align: left;
+    margin-top: 5px;
+}
+
 @media (max-width: 900px) {
     .product-item {
         flex-basis: 31%;
@@ -74,10 +84,7 @@
 
 @media (max-width: 576px) {
     .product-item {
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        flex-basis: 100%;
+        flex-basis: 45%;
         /* Set each item to take 100% width on screens up to 576px */
     }
 }
